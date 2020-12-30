@@ -37,18 +37,18 @@ Build mode assumes project optimization: image compression, minification of CSS 
 
 ##: open_file_folder: File structure
 
-``
+```
 gulp-pug-starter
 ├── dist
 ├── gulp-tasks
 ├── src
-│ ├── blocks
-│ ├── fonts
-│ ├── img
-│ ├── js
-│ ├── styles
-│ ├── views
-│ └── .htaccess
+│   ├── blocks
+│   ├── fonts
+│   ├── img
+│   ├── js
+│   ├── styles
+│   ├── views
+│   └── .htaccess
 ├── gulpfile.babel.js
 ├── webpack.config.js
 ├── package.json
@@ -58,49 +58,49 @@ gulp-pug-starter
 ├── .stylelintrc
 ├── .stylelintignore
 └── .gitignore
-``
+```
 
 * Folder root:
-    * `` .babelrc.js`` - Babel settings
-    * `` .bemrc.js`` - BEM settings
-    * `` .eslintrc.json`` - ESLint settings
-    * `` .gitignore`` - disallow Git tracking of files
-    * `` `.stylelintrc`` - Stylelint settings
-    * `` '.stylelintignore`` - prohibition of file tracking by Stylelint
-    * `` 'gulpfile.babel.js`` - Gulp settings
-    * `` 'webpack.config.js`` - Webpack settings
-    * `` `package.json`` - list of dependencies
-* Folder `` src '' - used during development:
-    * BEM blocks and components: `` src / blocks``
-    * fonts: `` 'src / fonts```
-    * images: `` 'src / img```
-    * JS files: `` 'src / js``
-    * site pages: `` 'src / views / pages``
-    * SCSS files: `` 'src / styles```
-    * service Pug files: `` 'src / views``
-    * Apache web server configuration file with settings [gzip] (https://habr.com/ru/post/221849/) (lossless compression): `` src / .htaccess``
-* `` Dist '' folder - the folder from which the local server for development is started (when you start `` yarn run dev '')
-* Folder `` gulp-tasks`` - folder with Gulp-tasks
+    * ``` .babelrc.js``` - Babel settings
+    * ``` .bemrc.js``` - BEM settings
+    * ``` .eslintrc.json``` - ESLint settings
+    * ``` .gitignore``` - disallow Git tracking of files
+    * ``` `.stylelintrc``` - Stylelint settings
+    * ``` '.stylelintignore``` - prohibition of file tracking by Stylelint
+    * ``` 'gulpfile.babel.js``` - Gulp settings
+    * ``` 'webpack.config.js``` - Webpack settings
+    * ``` `package.json``` - list of dependencies
+* Folder ``` src ``` - used during development:
+    * BEM blocks and components: ``` src / blocks```
+    * fonts: ``` src / fonts```
+    * images: ``` src / img```
+    * JS files: ``` src / js```
+    * site pages: ``` src / views / pages```
+    * SCSS files: ``` src / styles```
+    * service Pug files: ``` src / views```
+    * Apache web server configuration file with settings [gzip] (https://habr.com/ru/post/221849/) (lossless compression): ``` src / .htaccess ```
+* ``` Dist ``` folder - the folder from which the local server for development is started (when you start ``` yarn run dev ```)
+* Folder ``` gulp-tasks ``` - folder with Gulp-tasks
 
 ##: keyboard: Commands
-* `` 'yarn run lint: styles`` - check SCSS files. For VSCode, you need to install [plugin] (https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint). For WebStorm
-or PHPStorm must enable Stylelint in `` Languages ​​& Frameworks - Style Sheets - Stylelint '' (errors will be fixed automatically when you save the file)
-* `` 'yarn run lint: styles --fix`` - fix errors in SCSS files
-* `` '' yarn run lint: scripts`` - check JS files
-* `` yarn run lint: scripts --fix`` - fix errors in JS files
-* `` 'yarn run dev`` - start the server for project development
-* `` 'yarn run build`` - build a project with optimization without starting the server
-* `` 'yarn run build: views``` - compile Pug files
-* `` 'yarn run build: styles`` - compile SCSS files
-* `` 'yarn run build: scripts`` - build JS files
-* `` 'yarn run build: images`` - build images
-* `` `yarn run build: webp``` - convert images to `` .webp````
-* `` '' yarn run build: sprites``- build sprites
-* `` 'yarn run build: fonts`` - build fonts
-* `` 'yarn run build: favicons`` - build favicons
-* `` 'yarn run build: gzip`` - build Apache configuration
-* `` 'yarn run bem-m`` - add a BEM block
-* `` 'yarn run bem-c`` - add component
+* ``` yarn run lint: styles``` - check SCSS files. For VSCode, you need to install [plugin] (https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint). For WebStorm
+or PHPStorm must enable Stylelint in ``` Languages ​​& Frameworks - Style Sheets - Stylelint ``` (errors will be fixed automatically when you save the file)
+* ``` yarn run lint: styles --fix``` - fix errors in SCSS files
+* ``` yarn run lint: scripts``` - check JS files
+* ``` yarn run lint: scripts --fix``` - fix errors in JS files
+* ``` yarn run dev``` - start the server for project development
+* ``` yarn run build`` - build a project with optimization without starting the server
+* ``` yarn run build: views``` - compile Pug files
+* ``` yarn run build: styles``` - compile SCSS files
+* ``` yarn run build: scripts``` - build JS files
+* ``` yarn run build: images``` - build images
+* ``` yarn run build: webp``` - convert images to `` .webp```
+* ``` yarn run build: sprites```- build sprites
+* ``` yarn run build: fonts``` - build fonts
+* ``` yarn run build: favicons``` - build favicons
+* ``` yarn run build: gzip``` - build Apache configuration
+* ``` yarn run bem-m``` - add a BEM block
+* ``` yarn run bem-c``` - add component
 
 ##: bulb: Recommendations for use
 ### Component approach to website development
