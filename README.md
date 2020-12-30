@@ -1,54 +1,54 @@
 # gulp-pug-starter
 
-![GitHub release](https://img.shields.io/github/release/andreyalexeich/gulp-pug-starter.svg)
-[![dependencies Status](https://david-dm.org/andreyalexeich/gulp-pug-starter/status.svg)](https://david-dm.org/andreyalexeich/gulp-pug-starter)
-[![devDependencies Status](https://david-dm.org/andreyalexeich/gulp-pug-starter/dev-status.svg)](https://david-dm.org/andreyalexeich/gulp-pug-starter?type=dev)
-![GitHub stars](https://img.shields.io/github/stars/andreyalexeich/gulp-pug-starter.svg?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/andreyalexeich/gulp-pug-starter.svg?style=social)
+! [GitHub release] (https://img.shields.io/github/release/andreyalexeich/gulp-pug-starter.svg)
+[! [dependencies Status] (https://david-dm.org/andreyalexeich/gulp-pug-starter/status.svg)] (https://david-dm.org/andreyalexeich/gulp-pug-starter)
+[! [devDependencies Status] (https://david-dm.org/andreyalexeich/gulp-pug-starter/dev-status.svg)] (https://david-dm.org/andreyalexeich/gulp-pug-starter ? type = dev)
+! [GitHub stars] (https://img.shields.io/github/stars/andreyalexeich/gulp-pug-starter.svg?style=social)
+! [GitHub watchers] (https://img.shields.io/github/watchers/andreyalexeich/gulp-pug-starter.svg?style=social)
 <a href="https://www.paypal.me/andreyalexeich/">
-<img src="https://img.shields.io/badge/%D0%97%D0%B0%D0%B4%D0%BE%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D0%B8%D0%B2%D0%BE-PayPal-informational.svg">
+<img src = "https://img.shields.io/badge/%D0%97%D0%B0%D0%B4%D0%BE%D0%BD%D0%B0%D1%82%D1%8C% 20% D0% BD% D0% B0% 20% D0% BF% D0% B8% D0% B2% D0% BE-PayPal-informational.svg ">
 </a>
 <a href="https://www.tinkoff.ru/cardtocard/">
-<img src="https://img.shields.io/badge/%D0%97%D0%B0%D0%B4%D0%BE%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D0%B8%D0%B2%D0%BE-%D0%9D%D0%B0%20%D0%BA%D0%B0%D1%80%D1%82%D1%83%20--%205536%209137%205288%201934-informational.svg">
+<img src = "https://img.shields.io/badge/%D0%97%D0%B0%D0%B4%D0%BE%D0%BD%D0%B0%D1%82%D1%8C% 20% D0% BD% D0% B0% 20% D0% BF% D0% B8% D0% B2% D0% BE-% D0% 9D% D0% B0% 20% D0% BA% D0% B0% D1% 80 % D1% 82% D1% 83% 20 -% 205536% 209137% 205288% 201934-informational.svg ">
 </a>
 
-## :fire: Особенности
-* именование классов по [БЭМ](https://ru.bem.info/)
-* используется БЭМ-структура
-* используются препроцессоры [Pug](https://pugjs.org/) и [SCSS](https://sass-lang.com/)
-* используется транспайлер [Babel](https://babeljs.io/) для поддержки современного JavaScript (ES6) в браузерах
-* используется [Webpack](https://webpack.js.org/) для сборки JavaScript-модулей
-* используется CSS-сетка [smart-grid](https://github.com/dmitry-lavrik/smart-grid) на основе Bootstrap для быстрой адаптивной вёрстки
-* используется жёсткий кодгайд
-* используется проверка кода на ошибки перед коммитом
+##: fire: Features
+* class naming according to [BEM] (https://ru.bem.info/)
+* BEM structure is used
+* preprocessors are used [Pug] (https://pugjs.org/) and [SCSS] (https://sass-lang.com/)
+* uses transpiler [Babel] (https://babeljs.io/) to support modern JavaScript (ES6) in browsers
+* used by [Webpack] (https://webpack.js.org/) to build JavaScript modules
+* uses CSS-grid [smart-grid] (https://github.com/dmitry-lavrik/smart-grid) based on Bootstrap for fast responsive layout
+* using a hard code guide
+* used to check the code for errors before committing
 
-## :hammer_and_wrench: Установка
-* установите [NodeJS](https://nodejs.org/en/) (если требуется) и [Yarn](https://yarnpkg.com/en/docs/install)
-* скачайте сборку в консоли с помощью [Git](https://git-scm.com/downloads): ```git clone https://github.com/andreyalexeich/gulp-pug-starter.git```
-* установите ```gulp``` глобально: ```yarn global add gulp-cli```
-* установите ```bem-tools-core``` глобально: ```yarn global add bem-tools-core```
-* перейдите в скачанную папку со сборкой: ```cd gulp-pug-starter```
-* скачайте необходимые зависимости: ```yarn```
-* чтобы начать работу, введите команду: ```yarn run dev``` (режим разработки)
-* чтобы собрать проект, введите команду ```yarn run build``` (режим сборки)
+##: hammer_and_wrench: Install
+* install [NodeJS] (https://nodejs.org/en/) (if required) and [Yarn] (https://yarnpkg.com/en/docs/install)
+* download the build in the console using [Git] (https://git-scm.com/downloads): `` 'git clone https: // github.com / andreyalexeich / gulp-pug-starter.git ,,,
+* install `` gulp`` globally: `` `` yarn global add gulp-cli``
+* install `` bem-tools-core`` globally: `` `yarn global add bem-tools-core``
+* go to the downloaded assembly folder: `` `cd gulp-pug-starter``
+* download the required dependencies: `` `yarn```
+* to get started, enter the command: `` yarn run dev`` (development mode)
+* to build the project, enter the command `` yarn run build`` (build mode)
 
-Если вы всё сделали правильно, у вас должен открыться браузер с локальным сервером.
-Режим сборки предполагает оптимизацию проекта: сжатие изображений, минифицирование CSS и JS-файлов для загрузки на сервер.
+If you did everything correctly, you should open a browser with a local server.
+Build mode assumes project optimization: image compression, minification of CSS and JS files for uploading to the server.
 
-## :open_file_folder: Файловая структура
+##: open_file_folder: File structure
 
-```
+``
 gulp-pug-starter
 ├── dist
 ├── gulp-tasks
 ├── src
-│   ├── blocks
-│   ├── fonts
-│   ├── img
-│   ├── js
-│   ├── styles
-│   ├── views
-│   └── .htaccess
+│ ├── blocks
+│ ├── fonts
+│ ├── img
+│ ├── js
+│ ├── styles
+│ ├── views
+│ └── .htaccess
 ├── gulpfile.babel.js
 ├── webpack.config.js
 ├── package.json
@@ -58,132 +58,133 @@ gulp-pug-starter
 ├── .stylelintrc
 ├── .stylelintignore
 └── .gitignore
-```
+``
 
-* Корень папки:
-    * ```.babelrc.js``` — настройки Babel
-    * ```.bemrc.js``` — настройки БЭМ
-    * ```.eslintrc.json``` — настройки ESLint
-    * ```.gitignore``` – запрет на отслеживание файлов Git'ом
-    * ```.stylelintrc``` — настройки Stylelint
-    * ```.stylelintignore``` – запрет на отслеживание файлов Stylelint'ом
-    * ```gulpfile.babel.js``` — настройки Gulp
-    * ```webpack.config.js``` — настройки Webpack
-    * ```package.json``` — список зависимостей
-* Папка ```src``` - используется во время разработки:
-    * БЭМ-блоки и компоненты: ```src/blocks```
-    * шрифты: ```src/fonts```
-    * изображения: ```src/img```
-    * JS-файлы: ```src/js```
-    * страницы сайта: ```src/views/pages```
-    * SCSS-файлы: ```src/styles```
-    * служебные Pug-файлы: ```src/views```
-    * конфигурационный файл веб-сервера Apache с настройками [gzip](https://habr.com/ru/post/221849/) (сжатие без потерь): ```src/.htaccess```
-* Папка ```dist``` - папка, из которой запускается локальный сервер для разработки (при запуске ```yarn run dev```)
-* Папка ```gulp-tasks``` - папка с Gulp-тасками
+* Folder root:
+    * `` .babelrc.js`` - Babel settings
+    * `` .bemrc.js`` - BEM settings
+    * `` .eslintrc.json`` - ESLint settings
+    * `` .gitignore`` - disallow Git tracking of files
+    * `` `.stylelintrc`` - Stylelint settings
+    * `` '.stylelintignore`` - prohibition of file tracking by Stylelint
+    * `` 'gulpfile.babel.js`` - Gulp settings
+    * `` 'webpack.config.js`` - Webpack settings
+    * `` `package.json`` - list of dependencies
+* Folder `` src '' - used during development:
+    * BEM blocks and components: `` src / blocks``
+    * fonts: `` 'src / fonts```
+    * images: `` 'src / img```
+    * JS files: `` 'src / js``
+    * site pages: `` 'src / views / pages``
+    * SCSS files: `` 'src / styles```
+    * service Pug files: `` 'src / views``
+    * Apache web server configuration file with settings [gzip] (https://habr.com/ru/post/221849/) (lossless compression): `` src / .htaccess``
+* `` Dist '' folder - the folder from which the local server for development is started (when you start `` yarn run dev '')
+* Folder `` gulp-tasks`` - folder with Gulp-tasks
 
-## :keyboard: Команды
-* ```yarn run lint:styles``` - проверить SCSS-файлы. Для VSCode необходимо установить [плагин](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint). Для WebStorm
-или PHPStorm необходимо включить Stylelint в ```Languages & Frameworks - Style Sheets - Stylelint``` (ошибки будут исправлены автоматически при сохранении файла)
-* ```yarn run lint:styles --fix``` - исправить ошибки в SCSS-файлах
-* ```yarn run lint:scripts``` - проверить JS-файлы
-* ```yarn run lint:scripts --fix``` - исправить ошибки в JS-файлах
-* ```yarn run dev``` - запуск сервера для разработки проекта
-* ```yarn run build``` - собрать проект с оптимизацией без запуска сервера
-* ```yarn run build:views``` - скомпилировать Pug-файлы
-* ```yarn run build:styles``` - скомпилировать SCSS-файлы
-* ```yarn run build:scripts``` - собрать JS-файлы
-* ```yarn run build:images``` - собрать изображения
-* ```yarn run build:webp``` - сконвертировать изображения в формат ```.webp```
-* ```yarn run build:sprites```- собрать спрайты
-* ```yarn run build:fonts``` - собрать шрифты
-* ```yarn run build:favicons``` - собрать фавиконки
-* ```yarn run build:gzip``` - собрать конфигурацию Apache
-* ```yarn run bem-m``` - добавить БЭМ-блок
-* ```yarn run bem-c``` - добавить компонент
+##: keyboard: Commands
+* `` 'yarn run lint: styles`` - check SCSS files. For VSCode, you need to install [plugin] (https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint). For WebStorm
+or PHPStorm must enable Stylelint in `` Languages ​​& Frameworks - Style Sheets - Stylelint '' (errors will be fixed automatically when you save the file)
+* `` 'yarn run lint: styles --fix`` - fix errors in SCSS files
+* `` '' yarn run lint: scripts`` - check JS files
+* `` yarn run lint: scripts --fix`` - fix errors in JS files
+* `` 'yarn run dev`` - start the server for project development
+* `` 'yarn run build`` - build a project with optimization without starting the server
+* `` 'yarn run build: views``` - compile Pug files
+* `` 'yarn run build: styles`` - compile SCSS files
+* `` 'yarn run build: scripts`` - build JS files
+* `` 'yarn run build: images`` - build images
+* `` `yarn run build: webp``` - convert images to `` .webp````
+* `` '' yarn run build: sprites``- build sprites
+* `` 'yarn run build: fonts`` - build fonts
+* `` 'yarn run build: favicons`` - build favicons
+* `` 'yarn run build: gzip`` - build Apache configuration
+* `` 'yarn run bem-m`` - add a BEM block
+* `` 'yarn run bem-c`` - add component
 
-## :bulb: Рекомендации по использованию
-### Компонентный подход к разработке сайтов
-* каждый БЭМ-блок имеет свою папку внутри ```src/blocks/modules```
-* папка одного БЭМ-блока содержит в себе один Pug-файл, один SCSS-файл и один JS-файл (если у блока используется скрипт)
-    * Pug-файл блока импортируется в файл ```src/views/index.pug``` (или в необходимый файл страницы, откуда будет вызываться блок)
-    * SCSS-файл блока импортируется в файл ```src/blocks/modules/_modules.scss```
-    * JS-файл блока импортируется в ```src/js/import/modules.js```
+##: bulb: Recommendations for use
+### Component approach to website development
+* each BEM block has its own folder inside `` src / blocks / modules ''
+* folder of one BEM block contains one Pug file, one SCSS file and one JS file (if the block uses a script)
+    * The pug file of the block is imported to the file `` src / views / index.pug '' (or to the required page file from where the block will be called)
+    * The SCSS file of the block is imported into the file `` src / blocks / modules / _modules.scss ''
+    * JS file of the block is imported into `` src / js / import / modules.js ''
 
-Пример структуры папки с БЭМ-блоком:
-```
+An example of a folder structure with a BEM block:
+``
 blocks
 ├── modules
-│   ├── header
-│   │   ├── header.pug
-│   │   ├── header.js
-│   │   ├── header.scss
-```
+│ ├── header
+│ │ ├── header.pug
+│ │ ├── header.js
+│ │ ├── header.scss
+``
 
-Чтобы вручную не создавать соответствующие папку и файлы, достаточно в консоли прописать следующие команды:
-* ```yarn run bem-m my-block``` - для создания БЭМ-блока в ```src/block/modules``` (для основных БЭМ-блоков), где ```my-block``` - имя БЭМ-блока; 
-* ```yarn run bem-с my-component``` - для создания компонента в ```src/blocks/components``` (для компонентов), где ```my-component``` - имя компонента
+In order not to manually create the corresponding folder and files, it is enough to write the following commands in the console:
+* `` yarn run bem-m my-block`` - to create a BEM block in `` src / block / modules`` (for main BEM blocks), where `` my-block`` `- the name of the BEM block;
+* `` yarn run bem-with my-component`` - to create a component in `` src / blocks / components`` (for components), where `` my-component`` is the name of the component
 
-### Компоненты
-* компоненты (например, иконки, кнопки) оформляются в Pug с помощью примесей
-* каждый компонент имеет свою папку внутри ```src/blocks/components```
-* папка одного компонента содержит в себе один Pug-файл, один SCSS-файл и один JS-файл (если у компонента используется скрипт)
-    * Pug-файл компонента импортируется в файл главной страницы ```src/views/index.pug``` (или в необходимый файл страницы, откуда будет вызываться компонент)
-    * SCSS-файл компонента импортируется в файл ```src/blocks/components/_components.scss```
-    * JS-файл компонента импортируется в файл ```src/js/import/components.js```
+### Components
+* components (for example, icons, buttons) are styled in Pug using mixins
+* each component has its own folder inside `` src / blocks / components``
+* the folder of one component contains one Pug file, one SCSS file and one JS file (if the component uses a script)
+    * The pug file of the component is imported into the main page file `` src / views / index.pug '' (or into the required page file from where the component will be called)
+    * The SCSS file of the component is imported into the file `` src / blocks / components / _components.scss``
+    * JS file of the component is imported into the file `` src / js / import / components.js ''
 
-### Страницы проекта
-* страницы проекта находятся в папке ```src/views/pages```
-    * каждая страница (в том числе главная) наследует шаблон ```src/views/layouts/default.pug```
-    * главная страница: ```src/views/index.pug```
+### Project Pages
+* project pages are located in the folder `` src / views / pages``
+    * each page (including the main page) inherits the template `` src / views / layouts / default.pug``
+    * main page: `` 'src / views / index.pug``
 
-### Шрифты
-* шрифты находятся в папке ```src/fonts```
-    * используйте [форматы](https://caniuse.com/#search=woff) ```.woff``` и ```.woff2```
-    * шрифты подключаются в файл ```src/styles/base/_fonts.scss```
-    * сконвертировать локальные шрифты можно с помощью [данного сервиса](https://onlinefontconverter.com/)
+### Fonts
+* fonts are in the `` src / fonts '' folder
+    * use [formats] (https://caniuse.com/#search=woff) `` `.woff`` and` `` .woff2```
+    * fonts are included in the file `` src / styles / base / _fonts.scss ''
+    * you can convert local fonts using [this service] (https://onlinefontconverter.com/)
 
-### Изображения
-* изображения находятся в папке ```src/img```
-    * изображение для генерации фавиконок должно находиться в папке ```src/img/favicon``` и иметь размер не менее ```1024px x 1024px```
-    * изображения автоматически конвертируются в формат ```.webp```. Подробная информация по использованию [тут](https://vk.com/@vk_it-webp).
+### Images
+* images are in the folder `` src / img ''
+    * image for generating favicons must be located in the folder `` src / img / favicon '' and have a size of at least `` 1024px x 1024px ''
+    * images are automatically converted to `` .webp '' format. Detailed information on use [here] (https://vk.com/@vk_it-webp).
 
-### Сторонние библиотеки
-* все сторонние библиотеки устанавливаются в папку ```node_modules```
-    * для их загрузки воспользуйтеcь командой ```yarn add package_name```
-    * для подключения JS-файлов библиотек импортируйте их в самом начале JS-файла БЭМ-блока (то есть тот БЭМ-блок, который использует скрипт), например:
-    ```javascript
+### Third party libraries
+* all third-party libraries are installed in the `` node_modules '' folder
+    * to load them use the command `` yarn add package_name``
+    * to connect JS files of libraries, import them at the very beginning of the JS file of the BEM block (that is, the BEM block that the script uses), for example:
+    javascript
     import $ from "jquery";
-    ```
-    * для подключения стилевых файлов библиотек импортируйте их в файл ```src/styles/vendor/_libs.scss```
-    * JS-файлы и стилевые файлы библиотек самостоятельно изменять нельзя
+    ``
+    * to include the style files of the libraries, import them into the file `` src / styles / vendor / _libs.scss ''
+    * JS files and library style files cannot be changed by yourself
 
-:warning: Если в вашем проекте используется несколько библиотек, которые необходимо подключать на нескольких страницах, во избежании ошибок нужно:
-* по пути ```src/js/import``` создать папку ```pages```
-* в папке ```pages``` создать js-файл для страницы, например, ```pageA.js```, и импортировать туда библиотеку, которая будет использоваться только на этой странице
-    * аналогично проделать шаг для дополнительных страниц
-* в файле ```webpack.config.js``` в точку входа добавить js-файлы страниц, пример:
-```javascript
+: warning: If your project uses several libraries that need to be included on several pages, to avoid errors you need to:
+* along the path `` src / js / import``, create a folder `` pages``
+* in the folder `` pages``, create a js-file for the page, for example, `` pageA.js``, and import a library there that will be used only on this page
+    * perform the same step for additional pages
+* in the file `` webpack.config.js '' add js-files of pages to the entry point, example:
+javascript
 entry: {
     main: "./src/js/index.js",
     pageA: "./src/js/import/pages/pageA.js",
     pageB: "./src/js/import/pages/pageB.js"
 }
-```
-* подключить скомпилированные js-файлы на необходимых страницах
+``
+* include compiled js-files on the required pages
 
-## :hash: CSS-сетка smart-grid
-В сборщик включена CSS-сетка [smart-grid](https://github.com/dmitry-lavrik/smart-grid) от [Дмитрия Лаврика](https://dmitrylavrik.ru/). Она позволяет избавиться от
-лишних классов в разметке за счёт использования примесей в SCSS и ускоряет адаптивную вёрстку. Конфигурация уже настроена в соответствии с сеткой [Bootstrap](https://getbootstrap.com/). Инструкция по использованию [здесь](https://grid4web.ru/basics).
+##: hash: smart-grid CSS
+The builder includes the [smart-grid] CSS grid (https://github.com/dmitry-lavrik/smart-grid) from [Dmitry Lavrik] (https://dmitrylavrik.ru/). It allows you to get rid of
+unnecessary classes in markup due to the use of mixins in SCSS and speeds up adaptive layout. The configuration is already set up according to the [Bootstrap] grid (https://getbootstrap.com/). Instructions for use [here] (https://grid4web.ru/basics).
 
-## :point_right: Нужен SCSS без Pug?
-Используйте [эту](https://github.com/andreyalexeich/gulp-scss-starter/) сборку.
+##: point_right: Need SCSS without Pug?
+Use [this] (https://github.com/andreyalexeich/gulp-scss-starter/) assembly.
 
-## :yellow_heart: Нравится проект?
-Сообщайте мне о [багах](https://github.com/andreyalexeich/gulp-pug-starter/issues), ставьте звёздочку в правом верхнем углу, задонатьте мне на пиво :beer:
-* [На PayPal](https://www.paypal.me/andreyalexeich)
-* [На карту - 5536 9137 5288 1934](https://www.tinkoff.ru/cardtocard/)
+##: yellow_heart: Like the project?
+Let me know about [bugs] (https://github.com/andreyalexeich/gulp-pug-starter/issues), put an asterisk in the upper right corner, bother me
+for beer: beer:
+* [On PayPal] (https://www.paypal.me/andreyalexeich)
+* [To the card - 5536 9137 5288 1934] (https://www.tinkoff.ru/cardtocard/)
 
-## :envelope: Контакты
-* ВКонтакте: [@andreyalexeich](https://vk.com/andreyalexeich)
-* Telegram: [@andreyalexeich](https://t-do.ru/andreyalexeich)
+##: envelope: Contacts
+* VK: [@andreyalexeich] (https://vk.com/andreyalexeich)
+* Telegram: [@andreyalexeich] (https://t-do.ru/andreyalexeich)
